@@ -27,10 +27,10 @@ def inference(img, ver, size):
     elif ver == 'Стиль - 4':
         out = face2paint(model4, img)
     return out
-title = "Фото в Рисунок"
-description = "Загрузите картинку любого размера до 1024px, выберите один из форматов генерации, выходной размер и нажмите кнопку Исполнить"
-article = "<br><br><br><br><br>"
-# Создание интерфейса Gradio с вариантами моделей, стилей и размеров и черным фоном
+title = "DIAMONIK7777 - AnimeGANv2"
+description = "<p style='text-align: center'>Будь в курсе обновлений <a href='https://vk.com/public221489796'>ПОДПИСАТЬСЯ</a></p>"
+article = "<br><br><br><br><p style='text-align: center'>Генерация индивидуальной модели с собственной внешностью <a href='https://vk.com/im?sel=-221489796'>ПОДАТЬ ЗАЯВКУ</a></p><br><br><br><br><br><br><br><br>"
+
 interface = gr.Interface(inference,
                          [gr.inputs.Image(type="pil"),
                           gr.inputs.Radio(['Стиль - 1', 'Стиль - 2', 'Стиль - 3', 'Стиль - 4'],
