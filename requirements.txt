@@ -1,0 +1,10 @@
+torch 
+torchvision 
+Pillow 
+gdown 
+numpy 
+scipy 
+cmake 
+onnxruntime-gpu 
+opencv-python-headless
+gradio==3.29.0
